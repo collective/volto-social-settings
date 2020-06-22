@@ -140,12 +140,20 @@ const reducers = {
 export default reducers
 ```
 
-And wherever you want to add the component, import and use it like this:
+
+## SocialLinks
+
+Add wherever you want the component, import and use it like this:
 
 ```jsx
 import { SocialLinks } from 'volto-social-settings/src/components/SocialLinks/SocialLinks'
 
 const YourAppComponent = () => <SocialLinks />
 ```
+
+It's customizable using CSS via two props:
+
+`wrapperCssClass`: a CSS class applied to the wrapper of the elements
+`itemCssClass`: a CSS class applied to each item
 
 Or, if this basic one doesn't fit your needs and CSS isn't enough, you can define a custom component and take that as an example.
