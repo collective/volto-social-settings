@@ -27,7 +27,7 @@ and in `package.json`:
     "develop:npx": "npx -p mrs-developer missdev --config=jsconfig.json --output=addons",
     "develop": "missdev --config=jsconfig.json --output=addons",
     "preinstall": "if [ -f $(pwd)/node_modules/.bin/missdev ]; then yarn develop; else yarn develop:npx; fi",
-    "postinstall": "rm -rf ./node_modules/volto-* && yarn omelette",
+    "postinstall": "yarn omelette",
     ...
   }
 ```
@@ -112,4 +112,40 @@ yarn
 
 ## Usage
 
-`Document your addon here`
+In your Volto project, add the reducer:
+
+```jsx
+// src/reducers/index.js
+
+/**
+ * Root reducer.
+ * @module reducers/root
+ */
+
+import defaultReducers from '@plone/volto/reducers'
+import { socialSettingsReducer } from 'volto-social-settings/src/reducers/socialSettingsReducer'
+
+/**
+ * Root reducer.
+ * @function
+ * @param {Object} state Current state.
+ * @param {Object} action Action to be handled.
+ * @returns {Object} New state.
+ */
+const reducers = {
+  ...defaultReducers,
+  socialSettings: socialSettingsReducer,
+}
+
+export default reducers
+```
+
+And wherever you want to add the component, import and use it like this:
+
+```jsx
+import { SocialLinks } from 'volto-social-settings/src/components/SocialLinks'
+
+const YourAppComponent = () => <SocialLinks />
+```
+
+Or, if this basic one doesn't fit your needs and CSS isn't enough, you can define a custom component and take that as an example.
