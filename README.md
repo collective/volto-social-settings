@@ -143,7 +143,7 @@ export default reducers
 And wherever you want to add the component, import and use it like this:
 
 ```jsx
-import { SocialLinks } from 'volto-social-settings/src/components/SocialLinks'
+import { SocialLinks } from 'volto-social-settings/src/components/SocialLinks/SocialLinks'
 
 const YourAppComponent = () => <SocialLinks />
 ```
