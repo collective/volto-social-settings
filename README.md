@@ -2,6 +2,8 @@
 
 A widget for [Volto](https://github.com/plone/volto) to insert values for any language enabled
 
+To be used with: [collective.volto.socialsettings](https://github.com/collective/collective.volto.socialsettings)
+
 To be used with mrs-developer, see [Volto docs](https://docs.voltocms.com/customizing/add-ons/) for further usage informations.
 
 ## Setup with voltocli
