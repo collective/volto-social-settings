@@ -1,4 +1,4 @@
-import socialSettingsReducer from 'volto-social-settings/reducers/socialSettingsReducer';
+import { socialSettingsReducer } from 'volto-social-settings/reducers/socialSettingsReducer';
 export { default as SocialLinks } from 'volto-social-settings/components/SocialLinks/SocialLinks';
 
 export default config => {

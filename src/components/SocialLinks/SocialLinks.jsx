@@ -6,12 +6,12 @@
 import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { useSelector, useDispatch } from 'react-redux';
-import { getSocialSettings } from '../../actions/getSocialSettings';
+import { getSocialSettings } from 'volto-social-settings/actions/getSocialSettings';
 import { Icon } from 'semantic-ui-react';
 import cx from 'classnames';
 
 const SocialLinks = ({ wrapperCssClass, itemCssClass }) => {
-  const socialSettings = useSelector(state => state.socialSettings.results);
+  const socialSettings = useSelector(state => state.socialSettings?.results);
   const dispatch = useDispatch();
 
   useEffect(() => {
