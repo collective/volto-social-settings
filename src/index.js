@@ -1,7 +1,16 @@
 import { socialSettingsReducer } from './reducers/socialSettingsReducer';
-export { default as SocialLinks } from './components/SocialLinks/SocialLinks';
+import SocialLinks from './components/SocialLinks/SocialLinks';
+import SocialLinksWidget from './widget/SocialLinksWidget';
+import { getSocialSettings } from './actions/getSocialSettings';
 
-export default config => {
+export { SocialLinksWidget, getSocialSettings, SocialLinks };
+
+export default (config) => {
+  config.widgets.id = {
+    ...config.widgets.id,
+    social_links: SocialLinksWidget,
+  };
+
   config.addonReducers = {
     ...config.addonReducers,
     socialSettings: socialSettingsReducer,

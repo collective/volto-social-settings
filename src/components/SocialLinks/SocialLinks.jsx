@@ -11,7 +11,7 @@ import { Icon } from 'semantic-ui-react';
 import cx from 'classnames';
 
 const SocialLinks = ({ wrapperCssClass, itemCssClass }) => {
-  const socialSettings = useSelector(state => state.socialSettings?.results);
+  const socialSettings = useSelector((state) => state.socialSettings?.results);
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -20,7 +20,7 @@ const SocialLinks = ({ wrapperCssClass, itemCssClass }) => {
 
   return socialSettings?.length > 0 ? (
     <div className={cx('social-header', wrapperCssClass)}>
-      {socialSettings.map(social => {
+      {socialSettings.map((social) => {
         const { title, icon, url } = social;
 
         return (
