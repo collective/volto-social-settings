@@ -1,6 +1,6 @@
 {
   "name": "volto-social-settings",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Addon for Volto to manage a list of social network links",
   "main": "src/index.js",
   "repository": "https://github.com/collective/volto-social-settings.git",
