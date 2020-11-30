@@ -2,7 +2,7 @@
  * Social settings action.
  * @module volto-social-settings/actions/getSocialSettings
  */
-export const GET_SOCIAL_SETTINGS = 'GET_SOCIAL_SETTINGS'
+export const GET_SOCIAL_SETTINGS = 'GET_SOCIAL_SETTINGS';
 
 /**
  * Get social settings
@@ -16,5 +16,5 @@ export function getSocialSettings() {
       op: 'get',
       path: `/@social-links`,
     },
-  }
+  };
 }

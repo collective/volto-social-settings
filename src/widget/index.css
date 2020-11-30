@@ -1,0 +1,16 @@
+.social-links-widget .social-settings-footer,
+.cms-ui .social-links-widget .social-settings-footer {
+  margin-top: 2em;
+  text-align: center;
+}
+
+.social-links-widget .move-buttons button i,
+.cms-ui .social-links-widget .move-buttons button i {
+  transform: rotate(90deg);
+}
+
+.social-links-widget .preview-social,
+.cms-ui .social-links-widget .preview-social {
+  display: flex;
+  flex-direction: column;
+}
