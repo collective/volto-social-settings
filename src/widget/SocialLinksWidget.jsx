@@ -155,6 +155,7 @@ const SocialLinksWidget = ({
                           });
                         }}
                       />
+
                       <TextWidget
                         id="title"
                         title={intl.formatMessage(messages.title)}
@@ -174,7 +175,7 @@ const SocialLinksWidget = ({
                         title={intl.formatMessage(messages.url)}
                         description=""
                         required={true}
-                        value={item.title}
+                        value={item.url}
                         onChange={(id, value) => {
                           onChangeItem(idx, {
                             ...configuration[idx],

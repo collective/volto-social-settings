@@ -12,4 +12,5 @@
 .social-links-widget .preview-social,
 .cms-ui .social-links-widget .preview-social {
   display: flex;
+  flex-direction: column;
 }
