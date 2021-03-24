@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
- #: widget/SocialLinksWidget
+#: widget/SocialLinksWidget
 msgid "social-settings-additem"
 msgstr ""
 

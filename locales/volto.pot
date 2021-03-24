@@ -1,7 +1,7 @@
 msgid ""
  msgstr ""
  "Project-Id-Version: Plone\n"
- "POT-Creation-Date: 2021-03-24T16:50:33.956Z\n"
+ "POT-Creation-Date: 2021-03-24T18:57:07.435Z\n"
  "Last-Translator: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
  "Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
  "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgid ""
  "Preferred-Encodings: utf-8\n"
  "Domain: volto\n"
 
- #: widget/SocialLinksWidget
+#: widget/SocialLinksWidget
 # defaultMessage: Add item
 msgid "social-settings-additem"
 msgstr ""
