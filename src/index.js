@@ -5,7 +5,7 @@ import { getSocialSettings } from './actions/getSocialSettings';
 
 export { SocialLinksWidget, getSocialSettings, SocialLinks };
 
-export default (config) => {
+export default function applyConfig(config) {
   config.widgets.id = {
     ...config.widgets.id,
     social_links: SocialLinksWidget,
@@ -17,4 +17,4 @@ export default (config) => {
   };
 
   return config;
-};
+}
