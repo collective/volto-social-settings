@@ -1,0 +1,40 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language: \n"
+"Language-Team: \n"
+"Content-Type: \n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#: widget/SocialLinksWidget
+msgid "social-settings-additem"
+msgstr "Aggiungi social"
+
+#: widget/SocialLinksWidget
+msgid "social-settings-delete-item"
+msgstr "Elimina social"
+
+#: widget/SocialLinksWidget
+msgid "social-settings-icon"
+msgstr "Icona"
+
+#: widget/SocialLinksWidget
+msgid "social-settings-move-item-down"
+msgstr "Sposta dopo"
+
+#: widget/SocialLinksWidget
+msgid "social-settings-move-item-up"
+msgstr "Sposta prima"
+
+#: widget/SocialLinksWidget
+msgid "social-settings-social-name"
+msgstr "Nome"
+
+#: widget/SocialLinksWidget
+msgid "social-settings-url"
+msgstr "URL"
