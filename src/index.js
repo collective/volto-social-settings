@@ -1,3 +1,4 @@
+import shareSVG from '@plone/volto/icons/share.svg';
 import { socialSettingsReducer } from './reducers/socialSettingsReducer';
 import SocialLinks from './components/SocialLinks/SocialLinks';
 import SocialLinksWidget from './widget/SocialLinksWidget';
@@ -15,6 +16,8 @@ export default function applyConfig(config) {
     ...config.addonReducers,
     socialSettings: socialSettingsReducer,
   };
+
+  config.settings.controlPanelsIcons['social-settings'] = shareSVG;
 
   return config;
 }
