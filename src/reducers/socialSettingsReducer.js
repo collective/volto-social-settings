@@ -3,7 +3,7 @@ import { GET_SOCIAL_SETTINGS } from '../actions/getSocialSettings';
 const initialState = {
   error: null,
   hasErrror: false,
-  results: {},
+  results: null,
   loadingResults: false,
 };
 
