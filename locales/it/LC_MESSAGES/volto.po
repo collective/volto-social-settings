@@ -12,29 +12,36 @@ msgstr ""
 "Plural-Forms: \n"
 
 #: widget/SocialLinksWidget
+# defaultMessage: Add item
 msgid "social-settings-additem"
 msgstr "Aggiungi social"
 
 #: widget/SocialLinksWidget
+# defaultMessage: Delete social
 msgid "social-settings-delete-item"
 msgstr "Elimina social"
 
 #: widget/SocialLinksWidget
+# defaultMessage: Icon name
 msgid "social-settings-icon"
 msgstr "Icona"
 
 #: widget/SocialLinksWidget
+# defaultMessage: Move item down
 msgid "social-settings-move-item-down"
 msgstr "Sposta dopo"
 
 #: widget/SocialLinksWidget
+# defaultMessage: Move item up
 msgid "social-settings-move-item-up"
 msgstr "Sposta prima"
 
 #: widget/SocialLinksWidget
+# defaultMessage: Social name
 msgid "social-settings-social-name"
 msgstr "Nome"
 
 #: widget/SocialLinksWidget
+# defaultMessage: Url
 msgid "social-settings-url"
 msgstr "URL"
