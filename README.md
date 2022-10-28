@@ -6,6 +6,7 @@ To be used with: [collective.volto.socialsettings](https://github.com/collective
 
 To be used with mrs-developer, see [Volto docs](https://docs.voltocms.com/customizing/add-ons/) for further usage informations.
 
+If you are using Volto < 16, then use v2.2.0.
 
 ## Usage
 
