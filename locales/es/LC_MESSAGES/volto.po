@@ -1,47 +1,55 @@
+# Translation of volto.pot to Spanish
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2023.
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: Plone\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language: \n"
-"Language-Team: \n"
-"Content-Type: \n"
-"Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"POT-Creation-Date: 2021-10-23T15:40:30.676Z\n"
+"PO-Revision-Date: 2023-05-18 12:18-0400\n"
+"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
+"Language: es\n"
+"Language-Team: ES <LL@li.org>\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Preferred-Encodings: utf-8\n"
+"MIME-Version: 1.0\n"
+"Language-Code: es\n"
+"Language-Name: Español\n"
+"Domain: volto\n"
+"X-Is-Fallback-For: es-ar es-bo es-cl es-co es-cr es-do es-ec es-es es-sv es-gt es-hn es-mx es-ni es-pa es-py es-pe es-pr es-us es-uy es-ve\n"
 
 #: widget/SocialLinksWidget
 # defaultMessage: Add item
 msgid "social-settings-additem"
-msgstr ""
+msgstr "Añadir elemento"
 
 #: widget/SocialLinksWidget
 # defaultMessage: Delete social
 msgid "social-settings-delete-item"
-msgstr ""
+msgstr "Eliminar red social"
 
 #: widget/SocialLinksWidget
 # defaultMessage: Icon name
 msgid "social-settings-icon"
-msgstr ""
+msgstr "Nombre de icono"
 
 #: widget/SocialLinksWidget
 # defaultMessage: Move item down
 msgid "social-settings-move-item-down"
-msgstr ""
+msgstr "Mover elemento hacia abajo"
 
 #: widget/SocialLinksWidget
 # defaultMessage: Move item up
 msgid "social-settings-move-item-up"
-msgstr ""
+msgstr "Mover elemento hacia arriba"
 
 #: widget/SocialLinksWidget
 # defaultMessage: Social name
 msgid "social-settings-social-name"
-msgstr ""
+msgstr "Nombre de red social"
 
 #: widget/SocialLinksWidget
 # defaultMessage: Url
 msgid "social-settings-url"
-msgstr ""
+msgstr "Dirección URL"
