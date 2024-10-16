@@ -10,6 +10,11 @@ import { getSocialSettings } from '../../actions/getSocialSettings';
 import { Icon } from 'semantic-ui-react';
 import cx from 'classnames';
 
+// temporary fix for twitter-x icon
+import { Icon as IconCustom } from '@plone/volto/components';
+import twitterXSvg from '../icons/twitter-x.svg';
+import './socialLinks.css';
+
 const SocialLinks = ({ wrapperCssClass, itemCssClass }) => {
   const socialSettings = useSelector((state) => state.socialSettings?.results);
   const dispatch = useDispatch();
@@ -32,7 +37,15 @@ const SocialLinks = ({ wrapperCssClass, itemCssClass }) => {
             title={title}
             key={url}
           >
-            <Icon name={icon} />
+            {icon === 'twitter-x' ? (
+              <IconCustom 
+                className="custom-icon"
+                size="24px"
+                name={twitterXSvg}
+              />
+            ) : (
+              <Icon name={icon} />
+            )}
           </a>
         );
       })}
