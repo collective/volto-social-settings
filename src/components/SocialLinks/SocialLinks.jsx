@@ -11,7 +11,7 @@ import { Icon } from 'semantic-ui-react';
 import cx from 'classnames';
 
 // temporary fix for twitter-x icon
-import { Icon as VoltoIcon } from '@plone/volto/components';
+import VoltoIcon from '@plone/volto/components/theme/Icon/Icon';
 import twitterXSvg from '../icons/twitter-x.svg';
 import './socialLinks.css';
 
@@ -38,7 +38,7 @@ const SocialLinks = ({ wrapperCssClass, itemCssClass }) => {
             key={url}
           >
             {icon === 'twitter-x' ? (
-              <VoltoIcon 
+              <VoltoIcon
                 className="custom-icon"
                 size="24px"
                 name={twitterXSvg}

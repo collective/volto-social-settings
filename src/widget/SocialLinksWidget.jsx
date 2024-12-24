@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { defineMessages, useIntl } from 'react-intl';
 import { Icon, Grid, Form, Button } from 'semantic-ui-react';
-import { TextWidget } from '@plone/volto/components';
+import { TextWidget } from '@plone/volto/components/manage/Widgets';
 import './index.css';
 
 const messages = defineMessages({
