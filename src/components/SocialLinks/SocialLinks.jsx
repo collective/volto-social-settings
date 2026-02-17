@@ -16,11 +16,14 @@ import twitterXSvg from '../icons/twitter-x.svg';
 import './socialLinks.css';
 
 const SocialLinks = ({ wrapperCssClass, itemCssClass }) => {
+  const loading = useSelector((state) => state.socialSettings?.loadingResults);
   const socialSettings = useSelector((state) => state.socialSettings?.results);
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(getSocialSettings());
+    if (!loading && !socialSettings) {
+      dispatch(getSocialSettings());
+    }
   }, [dispatch]);
 
   return socialSettings?.length > 0 ? (

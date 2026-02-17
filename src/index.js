@@ -19,5 +19,26 @@ export default function applyConfig(config) {
 
   config.settings.controlPanelsIcons['social-settings'] = shareSVG;
 
+  config.settings.asyncPropsExtenders = [
+    ...(config.settings.asyncPropsExtenders ?? []),
+    {
+      path: '/',
+      extend: (dispatchActions) => {
+        if (
+          dispatchActions.filter(
+            (asyncAction) => asyncAction.key === 'socialsettings',
+          ).length === 0
+        ) {
+          dispatchActions.push({
+            key: 'socialsettings',
+            promise: ({ location, store: { dispatch } }) =>
+              __SERVER__ && dispatch(getSocialSettings()),
+          });
+        }
+
+        return dispatchActions;
+      },
+    },
+  ];
   return config;
 }
